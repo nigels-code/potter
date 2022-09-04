@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    document.title = "The Chatty Potter";
+    document.title = "Chatty Potter";
   });
   return (
     <div className="container">

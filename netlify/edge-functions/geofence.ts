@@ -1,7 +1,7 @@
 import { Context } from "netlify:edge";
 
 export default (_request: Request, context: Context) => {
-  const GEOFENCE = ["GB"];
+  const GEOFENCE = ["GB", "FR"];
   const countryCode = context.geo?.country?.code || "GB";
   const countryName = context.geo?.country?.name || "Outside the UK";
 

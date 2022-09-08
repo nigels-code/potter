@@ -1,30 +1,33 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
 body {
-  height: 100%;
-  width: 100%;
   font-family: sans-serif;
-  background-image: url("./img/pottery-md.jpg");
+}
+
+.background-image {
+  height: 100vh;
+  /* background-image: url("./img/pottery-md.jpg"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.center {
-  text-align: center;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.container {
-  margin-top: 75px;
-}
-
-.large {
-  font-size: 200%;
-}
-
-.top-margin {
-  margin-top: 15px;
 }

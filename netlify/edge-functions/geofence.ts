@@ -10,7 +10,7 @@ export default (_request: Request, context: Context) => {
       `We're sorry, you can't access our content from ${countryName}`,
       {
         headers: { "content-type": "text/html" },
-        status: 451,
+        status: 418,
       }
     );
   }

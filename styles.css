@@ -30,5 +30,50 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+}
+
+.container {
+  padding: 30px;
+}
+
+.p-margin {
+  margin-top: 30px;
+}
+
+.f-size {
+  font-size: 200%;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 70%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .container {
+    padding: 50px;
+  }
+  .f-size {
+    font-size: 250%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 70px;
+  }
+  .f-size {
+    font-size: 300%;
+  }
 }

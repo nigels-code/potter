@@ -21,11 +21,12 @@ dd {
 
 body {
   font-family: sans-serif;
+  max-width: 1600px;
+  margin: auto;
+  background-color: #e1ddd1;
 }
 
 .background-image {
-  height: 100vh;
-  /* background-image: url("./img/pottery-md.jpg"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

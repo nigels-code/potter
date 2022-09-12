@@ -30,6 +30,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 40vh;
+  max-width: 1060px;
+  margin: inherit;
 }
 
 .container {
@@ -90,6 +92,6 @@ body {
     font-size: 300%;
   }
   .position {
-    background-position: 50% 15%;
+    background-position: 50% 10%;
   }
 }

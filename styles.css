@@ -98,6 +98,14 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
+  
+  .background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    max-width: 1060px;
+    margin: inherit;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1059px){
@@ -120,6 +128,14 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
+  
+  .background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    max-width: 1060px;
+    margin: inherit;
+  }
 }
 
 
@@ -135,7 +151,6 @@ body {
     background-position: 50% 10%;
   }
   
-  
   .map-responsive {
     overflow: hidden;
     padding-bottom: 50%;
@@ -145,5 +160,13 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50px;
+  }
+  
+  .background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    max-width: 1060px;
+    margin: inherit;
   }
 }

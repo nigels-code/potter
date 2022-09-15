@@ -29,7 +29,7 @@ body {
 .background-image {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 400px;
   max-width: 1060px;
   margin: inherit;
 }
@@ -102,7 +102,7 @@ body {
   .background-image {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 500px;
     max-width: 1060px;
     margin: inherit;
   }
@@ -132,7 +132,7 @@ body {
   .background-image {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 700px;
     max-width: 1060px;
     margin: inherit;
   }
@@ -165,7 +165,7 @@ body {
   .background-image {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 700px;
     max-width: 1060px;
     margin: inherit;
   }

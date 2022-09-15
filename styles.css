@@ -62,17 +62,20 @@ body {
   padding-bottom: 100%;
   position: relative;
   height: 0;
+  max-width: 1060px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .map-responsive iframe {
   left: 0;
   top: 0;
-  height: 115%;
+  height: 116%;
   width: 100%;
   position: absolute;
   margin-top: -62px;
-  max-width: 1060px;
-  margin-right: auto;
+  
+  
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -85,9 +88,19 @@ body {
   .position {
     background-position: 50% 10%;
   }
+  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 80%;
+    position: relative;
+    height: 0;
+    max-width: 1060px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1059px){
   .container {
     padding: 70px 70px 0 70px;
   }
@@ -96,5 +109,41 @@ body {
   }
   .position {
     background-position: 50% 10%;
+  }
+  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+    max-width: 1060px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+@media screen and (min-width: 1060px){
+    
+  .container {
+    padding: 70px 70px 0 70px;
+  }
+  .f-size {
+    font-size: 300%;
+  }
+  .position {
+    background-position: 50% 10%;
+  }
+  
+  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+    max-width: 1060px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
   }
 }

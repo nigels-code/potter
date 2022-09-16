@@ -132,7 +132,7 @@ body {
   .background-image {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 600px;
     max-width: 1060px;
     margin: inherit;
   }
